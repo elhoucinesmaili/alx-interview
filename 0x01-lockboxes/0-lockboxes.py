@@ -3,14 +3,10 @@
 
 
 def canUnlockAll(boxes):
-    '''
-    Determines if all the boxes can be opened or not.
-
-    Args:
-        boxes (list of lists): A list of boxes, each containing keys to other boxes.
-
+    '''determines if all the boxes can be opened or not
     Returns:
-        True if all boxes can be opened, False otherwise.
+        True: all boxes can be opened
+        False: not all boxes can be opened
     '''
     length = len(boxes)
     keys = set()
